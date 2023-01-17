@@ -78,8 +78,8 @@
                                     </a>
                                 </div>
                             </div>
-                            <div style="width: 6rem; height: 6rem">
-                                <div class="btn_play" data-link="https://www.youtube.com/watch?v=JjCr6d8H1xA">
+                            <div style="width: 6rem; height: 6rem" >
+                                <div class="btn_play" data-id="" data-link="https://www.youtube.com/watch?v=JjCr6d8H1xA">
                                     <p class="m-auto">PLAY</p>
                                 </div>
                             </div>

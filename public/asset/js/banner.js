@@ -85,8 +85,18 @@ try {
     icon_right.setAttribute('data-id', 'null');
 }
 
+$(".btn_play").click(function () {
+    var btn_play_on = true;
+    if (icon_right.getAttribute('data-id') >= 0)
+    {
+        banner_right();
+    }
+    else
+    {
+        banner_left();
+        }
 
-
+})
 $(".icon_right").click(function () {
     banner_right();
 })
