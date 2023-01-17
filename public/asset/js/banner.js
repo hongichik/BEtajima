@@ -211,7 +211,7 @@ function RunBannerAnimation(x, y) {
     BwaveReady = false;
 }
 
-$(".card_item").click(function () {
+$(".card_item, .card_item canvas").click(function () {
     $(".banner_home").animate({ "top": "0vh" }, 1000)
     $('h1,h2,p,div,a').removeClass("black")
     $('.menu_h').css('background-color','transparent')
