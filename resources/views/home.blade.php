@@ -114,7 +114,7 @@
     </div>
     <div class="d-flex container listCard flex-wrap" style="padding: 4rem">
         @foreach ($Projects as $index => $Project)
-            <div class="col-4 px-3 card_item d-flex flex-column" data-id="{{ $index }}"
+            <div class="col-12 col-lg-4 col-md-6 px-3 card_item d-flex flex-column" data-id="{{ $index }}"
                 data-img="{{ URL::asset('storage') }}/{{ str_replace('\\', '/', $Project->image) }}">
                 <p class="m-0 fs_0_8 card_id" style="order: 0">{{ $Project->slug }}</p>
 
