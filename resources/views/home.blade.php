@@ -112,7 +112,7 @@
 
         <!-- <iframe style="width: 90%; height: 90%; position: fixed; top: 3%;" src="https://www.youtube.com/embed/JJi5KwdxmiI"  allowfullscreen="true" allowscriptaccess="always" frameborder="0"></iframe> -->
     </div>
-    <div class="d-flex container listCard flex-wrap" style="padding: 4rem">
+    <div class="d-flex container listCard flex-wrap p-1 p-md-5">
         @foreach ($Projects as $index => $Project)
             <div class="col-12 col-lg-4 col-md-6 px-3 card_item d-flex flex-column" data-id="{{ $index }}"
                 data-img="{{ URL::asset('storage') }}/{{ str_replace('\\', '/', $Project->image) }}">
