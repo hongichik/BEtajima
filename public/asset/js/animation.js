@@ -18,7 +18,7 @@ $(".icon_menu").click(function () {
     $('h1,h2,p,div,a').addClass("black")
     $('.menu_h').css('background-color','white')
     $("#icon_menu").css("stroke", "black")
-    $('body').css('overflow','auto')
+    $('body').css('overflow','')
     window.scrollTo(0, 0)
 })
 $(".btn_about").click(function () {
@@ -26,7 +26,7 @@ $(".btn_about").click(function () {
     $('h1,h2,p,div,a').addClass("black")
     $('.menu_h').css('background-color','white')
     $("#icon_menu").css("stroke", "black")
-    $('body').css('overflow', 'auto')
+    $('body').css('overflow', '')
 })
 $(".btn_home").click(function () {
     $(".banner_home").animate({ "top": "0vh" }, 1000)
