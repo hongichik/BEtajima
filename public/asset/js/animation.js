@@ -35,10 +35,7 @@ $(".btn_home").click(function () {
     $("#icon_menu").css("stroke", "#fff")
     $('body').css('overflow', 'hidden')
 })
-$('.card_item canvas').click(function () {
-    alert('oke')
-    $(this).parent().children('.card_title').click();
-})
+
 $(document).ready(function () {
     $("<img/>")
         .on('load', function () { console.log("image loaded correctly"); })

@@ -38,6 +38,9 @@ $(document).ready(function () {
         listCard[i].stage.addChild(containerCard[i]);
     }
     onlick = true;
+    $('.card_item canvas').click(function () {
+        $(this).parent().children('.card_title').click();
+    })
     $(".card_item canvas").hover(function () {
         if (!onlick) {
             return;
