@@ -126,7 +126,7 @@
     <div class="d-flex container flex-column contact">
         <div class="col-10 d-flex flex-column m-auto">
             <h3 class="fs_1">Filmmaker</h3>
-            <h1 style="letter-spacing: 2rem" class="pb-2">TAO TAJIMA</h1>
+            <h1 style="letter-spacing: 1.5rem" class="pb-2">TAO TAJIMA</h1>
             <p class="m-0 fs_0_8">from TANGRAM co.ltd.</p>
             <a class="mb-4 fs_0_8" href="">http://tangram.to</a>
             <p class="m-0 fs_0_7">

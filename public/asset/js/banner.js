@@ -43,7 +43,6 @@ for (let i = 0; i < sumListImg; i++) {
 }
 function centerImage(image) {
     image.anchor.set(0.5);
-    image.width = $(window).width();
     image.height = $(window).height();
     image.x = banner.renderer.width / 2;
     image.y = banner.renderer.height / 2;
