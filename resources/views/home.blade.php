@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{ URL::asset('asset/css/media.css') }}" />
 </head>
 
-<body class="controls">
+<body class="controls" style="overflow: hidden;">
     <div id="preloader">
         <div id="loader"></div>
     </div>

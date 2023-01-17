@@ -18,6 +18,7 @@ $(".icon_menu").click(function () {
     $('h1,h2,p,div,a').addClass("black")
     $('.menu_h').css('background-color','white')
     $("#icon_menu").css("stroke", "black")
+    $('body').css('overflow','scroll')
     window.scrollTo(0, 0)
 })
 $(".btn_about").click(function () {
@@ -25,12 +26,14 @@ $(".btn_about").click(function () {
     $('h1,h2,p,div,a').addClass("black")
     $('.menu_h').css('background-color','white')
     $("#icon_menu").css("stroke", "black")
+    $('body').css('overflow', 'scroll')
 })
 $(".btn_home").click(function () {
     $(".banner_home").animate({ "top": "0vh" }, 1000)
     $('h1,h2,p,div,a').removeClass("black")
     $('.menu_h').css('background-color','transparent')
     $("#icon_menu").css("stroke", "#fff")
+    $('body').css('overflow', 'hidden')
 })
 $(document).ready(function () {
     $("<img/>")

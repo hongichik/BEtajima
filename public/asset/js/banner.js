@@ -216,6 +216,7 @@ $(".card_item").click(function () {
     $('h1,h2,p,div,a').removeClass("black")
     $('.menu_h').css('background-color','transparent')
     $("#icon_menu").css("stroke", "#fff")
+    $('body').css('overflow', 'hidden')
     id = $(this).data("id");
     const id_b = id;
     branch_id.innerHTML = listImage[id_b][1];
